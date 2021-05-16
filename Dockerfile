@@ -1,3 +1,5 @@
 FROM openjdk:11
-COPY ./target/proyecto-backend-spring-boot.jar proyecto-backend-spring-boot.jar
-CMD ["java", "-jar", "proyecto-backend-spring-boot.jar"]
+EXPOSE 8080
+ARG JAR_FILE=target/proyecto-backend-spring-boot.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java", "-jar", "app.jar"]
