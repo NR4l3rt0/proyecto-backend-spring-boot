@@ -34,7 +34,7 @@ import com.jubiter.service.PedidoClienteService;
  */
 @RestController
 @RequestMapping("/area-cliente")
-@CrossOrigin(origins = "https://jubiter.netlify.app/") 
+@CrossOrigin(origins = "https://jubiter.netlify.app") 
 public class PedidoClienteControlador {
 
 
