@@ -36,7 +36,7 @@ import com.jubiter.service.EmpleadoRRHHService;
  */
 @RestController
 @RequestMapping("/rrhh")
-@CrossOrigin(origins = "http://localhost:3000") 
+@CrossOrigin(origins = "https://jubiter.netlify.app") 
 public class EmpleadoRRHHControlador {
 
 

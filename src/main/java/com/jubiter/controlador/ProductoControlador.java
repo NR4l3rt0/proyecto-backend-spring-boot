@@ -34,7 +34,7 @@ import com.jubiter.service.ProductoService;
  */
 @RestController
 @RequestMapping("/stock")
-@CrossOrigin(origins = "http://localhost:3000")   
+@CrossOrigin(origins = "https://jubiter.netlify.app/")   
 public class ProductoControlador {
 
 	/**

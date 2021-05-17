@@ -34,7 +34,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/crm")
-@CrossOrigin(origins = "http://localhost:3000") 
+@CrossOrigin(origins = "https://jubiter.netlify.app") 
 public class ClienteCRMControlador {
 
 	
